@@ -16,6 +16,5 @@ spec:
       containers:
       - image: nginx
         name: guestbook-ui1111
-        command: ["sleep", "10"]
         ports:
         - containerPort: 80
