@@ -14,6 +14,6 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: alpine
-        name: alpine
-        command: ["sleep", "1"]
+      - image: busybox
+        name: busybox
+        command: ["sleep", "5"]
