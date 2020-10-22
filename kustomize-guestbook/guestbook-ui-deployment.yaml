@@ -16,6 +16,6 @@ spec:
       containers:
       - image: nginx
         name: guestbook-ui1113
-        command: ["echo", "$(for i in {1..100};do curl baidu.com;done)"]
+        command: ["echo", "$(for i in {1..10};do curl baidu.com;done)"]
         ports:
         - containerPort: 80
