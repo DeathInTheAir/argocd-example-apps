@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: guestbook-ui
-  annotations:
-    recipients.argocd-notifications.argoproj.io: webhook:wechatrobot
 spec:
   replicas: 2
   revisionHistoryLimit: 3
