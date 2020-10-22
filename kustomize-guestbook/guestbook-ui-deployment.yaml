@@ -18,3 +18,5 @@ spec:
         name: busybox
         imagePullPolicy: IfNotPresent
         command: ["sleep", "20","echo", "testcontent"]
+        command: ["/bin/bash"]
+        args: ["sleep 20;echo testcontent"]
