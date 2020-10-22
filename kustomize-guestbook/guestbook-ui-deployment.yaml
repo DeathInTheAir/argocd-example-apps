@@ -13,7 +13,7 @@ spec:
       labels:
         app: guestbook-ui
     spec:
-      restart_policy: OnFailure
+      restartPolicy: OnFailure
       containers:
       - image: busybox
         name: busybox
