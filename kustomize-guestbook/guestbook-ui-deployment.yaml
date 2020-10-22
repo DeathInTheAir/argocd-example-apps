@@ -16,4 +16,5 @@ spec:
       containers:
       - image: busybox
         name: busybox
-        command: ["echo", "testcontent"]
+        imagePullPolicy: IfNotPresent
+        command: ["sleep","10","echo", "testcontent"]
