@@ -17,5 +17,4 @@ spec:
       - image: alpine
         name: alpine
         imagePullPolicy: IfNotPresent
-        command: ["/bin/sh"]
-        args: ["sleep 20;echo testcontent"]
+        command: ["sleep", "20"]
