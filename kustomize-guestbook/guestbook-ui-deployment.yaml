@@ -14,8 +14,8 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: busybox
-        name: busybox
+      - image: aplpine
+        name: aplpine
         imagePullPolicy: IfNotPresent
-        command: ["/bin/bash"]
+        command: ["/bin/sh"]
         args: ["sleep 20;echo testcontent"]
