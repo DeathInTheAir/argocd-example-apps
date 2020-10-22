@@ -1,4 +1,4 @@
-namePrefix: pps1-
+namePrefix: pps2-
 
 bases:
 - ../kustomize-guestbook
