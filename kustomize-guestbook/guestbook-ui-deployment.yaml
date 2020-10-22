@@ -14,8 +14,6 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: nginx
-        name: guestbook-ui1113
-        command: ["sleep", "5"]
-        ports:
-        - containerPort: 80
+      - image: alpine
+        name: alpine
+        command: ["sleep", "10"]
