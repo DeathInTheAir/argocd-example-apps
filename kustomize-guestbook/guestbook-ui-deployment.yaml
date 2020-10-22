@@ -17,4 +17,4 @@ spec:
       - image: busybox
         name: busybox
         imagePullPolicy: IfNotPresent
-        command: ["sleep 10","echo testcontent"]
+        command: ["sleep 20","echo testcontent"]
